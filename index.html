@@ -75,8 +75,37 @@
         
         <div class="container mx-auto px-6 text-center relative z-10">
             <div class="mb-8">
-                <div class="inline-flex items-center justify-center w-20 h-20 bg-white bg-opacity-20 rounded-full mb-6 floating">
-                    <span class="text-4xl">🚀</span>
+                <div class="inline-flex items-center justify-center w-24 h-24 bg-gradient-to-br from-white to-gray-100 rounded-full mb-6 floating shadow-2xl border-4 border-white border-opacity-30">
+                    <svg class="w-16 h-16" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Background circle with gradient -->
+                        <defs>
+                            <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+                                <stop offset="50%" style="stop-color:#764ba2;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#f093fb;stop-opacity:1" />
+                            </linearGradient>
+                            <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#f8fafc;stop-opacity:1" />
+                            </linearGradient>
+                        </defs>
+                        
+                        <!-- Outer ring -->
+                        <circle cx="50" cy="50" r="48" fill="url(#logoGradient)" stroke="#ffffff" stroke-width="2"/>
+                        
+                        <!-- Inner decorative elements -->
+                        <circle cx="50" cy="50" r="42" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.3"/>
+                        <circle cx="50" cy="50" r="36" fill="none" stroke="#ffffff" stroke-width="0.5" opacity="0.2"/>
+                        
+                        <!-- SYRX Text -->
+                        <text x="50" y="58" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800" text-anchor="middle" fill="url(#textGradient)" letter-spacing="1px">SYRX</text>
+                        
+                        <!-- Decorative stars -->
+                        <polygon points="25,25 27,31 33,31 28,35 30,41 25,37 20,41 22,35 17,31 23,31" fill="#ffffff" opacity="0.6"/>
+                        <polygon points="75,25 77,31 83,31 78,35 80,41 75,37 70,41 72,35 67,31 73,31" fill="#ffffff" opacity="0.4"/>
+                        <polygon points="25,75 27,81 33,81 28,85 30,91 25,87 20,91 22,85 17,81 23,81" fill="#ffffff" opacity="0.4"/>
+                        <polygon points="75,75 77,81 83,81 78,85 80,91 75,87 70,91 72,85 67,81 73,81" fill="#ffffff" opacity="0.6"/>
+                    </svg>
                 </div>
                 <h1 class="text-5xl md:text-7xl font-bold text-white mb-4">
                     SYRX Token
@@ -392,5 +421,5 @@
             observer.observe(card);
         });
     </script>
-<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'96c96307767f1bea',t:'MTc1NDc2NDg3OC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'96c9829d914b693e',t:'MTc1NDc2NjE3MS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
